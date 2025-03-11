@@ -1,0 +1,17 @@
+project_name: cifar10-cnn
+dataset: cifar10
+data_dir: data
+model_dir: artifacts
+log_dir: logs
+seed: 1337
+batch_size: 128
+num_workers: 4
+epochs: 30
+learning_rate: 0.001
+weight_decay: 0.0005
+val_split: 0.1
+label_smoothing: 0.05
+max_grad_norm: 2.0
+device: cuda
+use_amp: true
+num_classes: 10
